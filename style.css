@@ -1,7 +1,11 @@
 body{
     display: flex;
 }
-
+.banner{
+    background: red;
+    width: 40vw;
+    height: 100vh;
+}
 
 
 @font-face {
