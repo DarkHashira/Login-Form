@@ -1,16 +1,44 @@
-body{
-    display: flex;
+*{
+    margin: 0;
+    padding: 0;
 }
-.banner{
-    background: red;
-    width: 40vw;
+body{
+    background-color: #ECEEDF;
+}
+.join_crew{
+    display: flex;
+    justify-content: center;
     height: 100vh;
+    width: 65;
+}
+
+.left{
+    background: url("222389.jpg") center/cover no-repeat;
+    width: 25vw;
+    height: 100%;
+}
+.logo{
+    color: white;
+    font-family: MyCustomFont;
+    font-size: 3rem;
+    text-align: center;
+    position: relative;
+    top: 4rem;
+}
+
+.right{
+    background-color: white;
+    width: 40vw;
+    height: 100%;
+    border: 5px solid black;
+    border-left: 0;
+    box-sizing: border-box;
 }
 
 
 @font-face {
-  font-family: 'MyCustomFont';
-  src: url('myfont.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
+    font-family: 'MyCustomFont';
+    src: url('myfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
 }
