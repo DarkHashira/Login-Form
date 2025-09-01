@@ -1,0 +1,12 @@
+body{
+    display: flex;
+}
+
+
+
+@font-face {
+  font-family: 'MyCustomFont';
+  src: url('myfont.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
