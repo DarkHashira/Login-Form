@@ -6,6 +6,8 @@ body{
     background-color: #ECEEDF;
 }
 .container {
+    border: 5px solid black;
+    box-sizing: border-box;
     display: flex;
     height: 100vh;
     width: 80vw;   
@@ -15,26 +17,27 @@ body{
 
 
 .left{
-    background: url("222389.jpg") center/cover no-repeat;
+    background: url("background.jpeg") center/cover no-repeat;
     flex: 1;
     height: 100%;
 }
+
 .logo{
-    color: white;
-    font-family: MyCustomFont;
-    font-size: 3rem;
+    background: rgba(0, 0, 0, 0.5); /* dark overlay */
+    color: black;
+    font-family: JetBrains MOno;
+    font-size: 2rem;
     text-align: center;
     position: relative;
     top: 4rem;
+    display: flex;
+    justify-content: center;
 }
 
 .right{
     background-color: white;
     flex: 2;
     height: 100%;
-    border: 5px solid black;
-    border-left: 0;
-    box-sizing: border-box;
     padding-left:50px;
 }
 
@@ -48,12 +51,4 @@ body{
 .form_group{
     display: flex;
     flex-direction: column;
-}
-
-
-@font-face {
-    font-family: 'MyCustomFont';
-    src: url('myfont.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
 }
