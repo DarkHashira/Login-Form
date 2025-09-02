@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport required" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
@@ -15,19 +15,47 @@
             </div>
         </div>
         <div class="right">
-            <h3>Lets find One Piece together</h3>
-            <form action="#">
+           <h3>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.
+Sign up now to get started.
+You know you want to.</h3>
+            <div class="right2">
+            <form id="luffy" action="#">
+                
+                
                 <div class="form_row">
                     <div class="form_group">
-                        <Label for="First_Name">First Name</Label>
-                    <input type="text" id="First_Name">
+                        <Label for="password">FIRST NAME</Label required>
+                    <input type="text" id="password" name="password" required>
                     </div>
                     <div class="form_group">
-                        <Label for="Last_Name">Last Name</Label>
-                    <input type="text" id="Last_Name">
+                        <Label for="c_password">LAST NAME</Label required>
+                    <input type="text" id="c_password" name="c_password" required>
                     </div>
                 </div>
+                <div class="form_row">
+                    <div class="form_group">
+                        <Label for="email_id">EMAIL</Label>
+                    <input type="email" id="email_id" name="email_id" required>
+                    </div>
+                    <div class="form_group">
+                        <Label for="phone">PHONE NUMBER</Label>
+                    <input type="tel" id="phone" name="phone" required>
+                    </div>
+                </div>
+                <div class="form_row">
+                    <div class="form_group">
+                        <Label for="password">PASSWORD</Label>
+                    <input type="text" id="password" name="password" required>
+                    </div>
+                    <div class="form_group">
+                        <Label for="c_password">CONFIRM PASSWORD</Label>
+                    <input type="text" id="c_password" name="c_password" required>
+                    </div>
+                </div>
+                
             </form>
+        </div>
+        <button type="submit" class="btn" form="luffy">Create Account</button>
         </div>
     </div>
 </body>
