@@ -90,3 +90,26 @@ form{
   width: 150px;
   margin-left: 40px;
 }
+
+.login{
+  margin-left: 40px;  
+}
+.login span{
+    color:red
+}
+
+input{
+    border: 1px solid #E5E7EB;
+}
+input:focus {
+  border: 1px solid blue;
+  box-shadow: 0 0 3px rgba(0, 0, 255, 0.5);
+  outline: none;   /* <--- this removes default focus ring */
+}
+
+#password:valid,#c_password:valid{
+    border: 1px solid green;
+}
+#password:invalid:not(:placeholder-shown),#c_password:invalid:not(:placeholder-shown){
+    border: 1px solid red   ;
+}

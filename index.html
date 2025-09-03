@@ -35,7 +35,7 @@ You know you want to.</h3>
                 <div class="form_row">
                     <div class="form_group">
                         <Label for="email_id">EMAIL</Label>
-                    <input type="email" id="email_id" name="email_id" required>
+                    <input type="email" id="email_id" name="email_id" placeholder="Example@gmail.com" required>
                     </div>
                     <div class="form_group">
                         <Label for="phone">PHONE NUMBER</Label>
@@ -47,11 +47,11 @@ You know you want to.</h3>
                 <div class="form_row">
                     <div class="form_group">
                         <Label for="password">PASSWORD</Label>
-                    <input type="password" id="password" name="password" pattern="^(?=.*[A-Z])(?=.*[a-z])(?=.*\d)[a-zA-Z\d]{8,}$" title="password should contain one capital,small and number of min 8 characters" required>
+                    <input type="password" id="password" name="password" pattern="^(?=.*[A-Z])(?=.*[a-z])(?=.*\d)[a-zA-Z\d]{8,}$" title="password should contain one capital,small and number of min 8 characters" placeholder="Example123" required>
                     </div>
                     <div class="form_group">
                         <Label for="c_password">CONFIRM PASSWORD</Label>
-                    <input type="password" id="c_password" name="c_password" oninput="this.setCustomValidity(this.value !== document.getElementById('password').value ? 'Passwords do not match' : '')" required>
+                    <input type="password" id="c_password" name="c_password" oninput="this.setCustomValidity(this.value !== document.getElementById('password').value ? 'Passwords do not match' : '')" placeholder="Example123" required>
                     </div>
                 </div>
                 
